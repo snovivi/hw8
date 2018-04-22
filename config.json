@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": ""
+  },
+  "text": {
+    "more": "Данный граф отображает связь между общими знакомыми. По графу можно заметить, что получились две доминирующие группы, которые объединяют в себе большое кол-во друзей: группа университетских знакомых (розовый цвет), группа школьных знакомых (зеленый цвет), малая группа из двух человек (голубой цвет), но так же есть и отдельные личности, которые не попали ни в какую из этих групп - они составляют отдельное объединение, которое не имеет общих знакомых среди моих \"друзей\"",
+    "intro": "",
+    "title": ""
+  },
+  "legend": {
+    "edgeLabel": "отношение \"дружбы\" между людьми",
+    "colorLabel": "компоненты связности графа",
+    "nodeLabel": "человек"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": false,
+    "hoverBehavior": "default"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
