@@ -1,6 +1,0 @@
-cmake_minimum_required(VERSION 3.8)
-project(untitled12)
-set(CMAKE_CXX_STANDARD 17)
-set(SOURCE_FILES main.cpp zadacha_class.hpp zadacha_class.cpp)
-add_executable(12_nomer ${SOURCE_FILES})
-set(CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS_DEBUG} -fprofile-instr-generate -fcoverage-mapping ")
